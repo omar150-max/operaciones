@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif; /* Define el tipo de letra de todo el cuerpo de la página */
+  background-color: #f4f4f9;      /* Color de fondo de la página (un gris muy claro) */
+  text-align: center;              /* Centra todo el texto dentro del body */
+  padding: 20px;                   /* Agrega un espacio interno alrededor de todo el contenido */
+}
+
+/* Estilo para los encabezados h2 */
+h2 {
+  color: #333;                     /* Color del texto del encabezado (gris oscuro) */
+}
+
+/* Estilo para los inputs numéricos dentro del formulario */
+form input[type="number"] {
+  padding: 8px;                     /* Espacio interno dentro del input */
+  width: 80px;                       /* Ancho del input */
+  font-size: 16px;                   /* Tamaño del texto dentro del input */
+}
+
+/* Estilo para los botones dentro del formulario */
+form button {
+  padding: 8px 16px;                /* Espacio interno vertical y horizontal del botón */
+  font-size: 16px;                   /* Tamaño del texto del botón */
+  border: none;                      /* Quita los bordes por defecto del botón */
+  border-radius: 4px;                /* Bordes redondeados del botón */
+  background-color: #32e33d;         /* Color de fondo del botón (verde) */
+  color: white;                      /* Color del texto del botón */
+  cursor: pointer;                   /* Cambia el cursor a una mano al pasar sobre el botón */
+}
+
+/* Cambio de color del botón al pasar el mouse */
+form button:hover {
+  background-color: #6eb300;         /* Color de fondo más oscuro cuando el mouse está sobre el botón */
+}
+
+/* Estilo para la tabla generada */
+table {
+  margin: 20px auto;                 /* Margen superior e inferior de 20px, centrado horizontalmente */
+  border-collapse: collapse;         /* Une los bordes de las celdas en uno solo */
+  width: 60%;                        /* Ancho de la tabla */
+  background-color: white;           /* Color de fondo de la tabla */
+}
+
+/* Estilo para todas las celdas de la tabla (th y td) */
+th, td {
+  border: 1px solid #e61a1a;        /* Borde rojo alrededor de cada celda */
+  padding: 10px;                     /* Espacio interno en cada celda */
+  font-size: 18px;                   /* Tamaño del texto dentro de las celdas */
+}
+
+/* Estilo solo para los encabezados (th) */
+th {
+  background-color: #f7b77c;         /* Color de fondo de los encabezados (naranja) */
+  color: white;                      /* Color del texto de los encabezados */
+}
+
+/* Efecto al pasar el mouse sobre las filas de la tabla */
+tr:hover {
+  background-color: #e0e0e0;         /* Cambia el fondo de la fila al pasar el mouse */
+}
+
+/* Contenedor del botón de menú */
+.boton-menu {
+  margin-top: 30px;                  /* Espacio superior para separarlo de la tabla */
+}
+
+/* Estilo del botón que lleva al menú */
+a.btn-menu {
+  display: inline-block;             /* Hace que se comporte como un botón */
+  background-color: #007bff;         /* Color de fondo azul */
+  color: white;                      /* Color del texto */
+  padding: 10px 20px;                /* Espaciado interno (vertical y horizontal) */
+  border-radius: 6px;                /* Bordes redondeados */
+  text-decoration: none;             /* Quita el subrayado del enlace */
+  font-size: 16px;                   /* Tamaño de letra */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+a.btn-menu:hover {
+  background-color: #0056b3;         /* Azul más oscuro al pasar el mouse */
+}
